@@ -1,0 +1,193 @@
+(footprint "LTZ1000"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "H Package 8-Lead TO-5 Metal Can (.200 Inch PCD)-2021")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 -2.54 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e4d5d1a3-bc5f-4d06-af56-8b92e795493d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LTZ1000"
+		(at 0 -2.54 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0a03296c-a56c-4977-b197-41056547a278")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92f8cfdf-d159-4b26-bc36-3f80c06d228b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Ultra Precision Reference"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51a875f2-ae95-47dc-8fd8-772999ec996f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "5.969"
+		(at 47.5 178.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5044d64f-c944-4855-906d-dbbac60e0d53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Analog Devices"
+		(at 47.5 178.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3addfebf-7386-4c93-80ae-4fab40c38d40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "LTZ1000"
+		(at 47.5 178.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b328e14-7e99-4af3-b8de-d175295c4af3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "N/A"
+		(at 47.5 178.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d546a3c7-7676-4bcc-ab6e-e2abd0f1a16f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTZ1000?qs=Imq1NPwxi7402pa1Ts%252BZRw%3D%3D"
+		(at 47.5 178.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "609d71c3-a7e8-4dcc-b070-e106b78f56de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "Datron 1281 Referenz.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.228 1.228)
+		(drill 0.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e97ede3b-e1be-48da-a0b3-04c4e94cda46")
+	)
+	(pad "2" thru_hole circle
+		(at 1.714 -0.826)
+		(size 1.228 1.228)
+		(drill 0.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32f540ae-8920-44a7-b9dc-adc080a8147d")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1.228 1.228)
+		(drill 0.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84654a1e-a1c1-4bbf-828f-5b95200f91b8")
+	)
+	(pad "4" thru_hole circle
+		(at 1.714 -4.255)
+		(size 1.228 1.228)
+		(drill 0.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74125381-1fdd-486e-8373-575ac6309070")
+	)
+	(pad "5" thru_hole circle
+		(at 0 -5.08)
+		(size 1.228 1.228)
+		(drill 0.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a57cf1a-d701-4609-9c7a-46a6fc1d4828")
+	)
+	(pad "6" thru_hole circle
+		(at -1.715 -4.255)
+		(size 1.228 1.228)
+		(drill 0.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f275730-380f-4a3c-b65e-a22804d8cb14")
+	)
+	(pad "7" thru_hole circle
+		(at -2.54 -2.54)
+		(size 1.228 1.228)
+		(drill 0.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e22334d-cb29-4b1d-b041-568468d6ee9f")
+	)
+	(pad "8" thru_hole circle
+		(at -1.715 -0.826)
+		(size 1.228 1.228)
+		(drill 0.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e45f8274-279d-4390-a073-fe64245ae310")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM}/SamacSys_Parts.3dshapes/LTZ1000.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
