@@ -1,0 +1,110 @@
+(footprint "D_DO-34_SOD68_P5.08mm_Vertical_AnodeUp"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-34_SOD68 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
+	(tags "Diode DO-34_SOD68 series Axial Vertical pin pitch 5.08mm  length 3.04mm diameter 1.6mm")
+	(property "Reference" "REF**"
+		(at 2.54 -2.25566 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb491330-fed6-486e-a013-2478781e2e63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1N4148"
+		(at 2.54 2.25566 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72c6d678-c09f-4be2-a49b-92075b878b3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39d5c708-d045-43f0-9c2c-fa4191396928")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Diode"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e64b6a2-8daa-4564-9347-b7a352b687ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at 187.19467 -12.40533 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa1683df-e407-401f-b826-0fab2161a2fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 187.19467 -12.40533 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92f97588-368f-4272-a625-fc4f59bdcdde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field6" "K"
+		(at 0 -1.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f0cd4f1d-0a1d-441d-a790-124f72bfd962")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "Datron 1281 Referenz.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b31de9c8-995b-4a56-932c-25db3650ad7b")
+	)
+	(pad "2" thru_hole oval
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f68e3a46-18d0-4d18-8abd-c5829d45408f")
+	)
+	(embedded_fonts no)
+)
